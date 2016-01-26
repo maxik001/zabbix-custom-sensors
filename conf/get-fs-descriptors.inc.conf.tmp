@@ -1,1 +1,1 @@
-UserParameter=fs-descriptors,/usr/bin/python /opt/zabbix/zcs/script/get-fs-descriptors.py -g $1 -l /opt/zabbix/zcs/log/get-fs-descriptors.log
+UserParameter=fs-descriptors[*],/usr/bin/python /opt/zabbix/zcs/script/get-fs-descriptors.py -g $1 -l /opt/zabbix/zcs/log/get-fs-descriptors.log
